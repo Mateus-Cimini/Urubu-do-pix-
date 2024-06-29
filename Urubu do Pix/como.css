@@ -1,0 +1,39 @@
+*{
+    font-family: noto sans;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background-color: rgb(29, 28, 28);
+      
+    
+    }
+    
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    #logopixHeader{
+        position: relative;
+        top:7px
+    }
+
+h2, h1{
+    font-weight: 900;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: aliceblue;
+}
+
+a{
+    color: green;
+}

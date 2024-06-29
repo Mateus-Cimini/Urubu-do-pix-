@@ -1,0 +1,126 @@
+*{
+    font-family: noto sans;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background-color: rgb(29, 28, 28);
+      
+    
+    }
+    
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    #logopixHeader{
+        position: relative;
+        top:7px
+    }
+    
+    nav a{
+      
+       color: aliceblue;
+       text-decoration: none;
+       font-weight: 600;
+       padding: 0 1%;
+    
+      
+    }
+    
+    nav{
+        background-color: #423e3e;
+        border: 1px #423e3e solid;
+        border-radius: 6px;
+        box-shadow: 1px 4px 15px 5px rgba(21, 10, 30, 30);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+    }
+    
+    main{
+      display: flex;
+     
+    }
+    
+    #urubuMain{
+        position: absolute;
+        right: 8%;
+        top: 40%;
+    
+    }
+    
+    #logoTextoMain{
+        position: absolute;
+        right: 38%;
+        top: 40%;
+    }
+    
+    #qkMain{
+        position: absolute;
+        right: 31%;
+        top: 41%;
+    
+    }
+    
+    
+    #inputGrana{
+        position: absolute;
+        font-weight: 600;
+        right: 41%;
+        top: 65%;
+        height: 6%;
+        width: 15%;
+        border: 5px white solid;
+        border-radius: 3px;
+    
+    }
+    
+    #botaocalcular{
+        position: absolute;
+        font-weight: 900;
+        color: rgb(13, 184, 13);
+        right: 41%;
+        top: 74%;
+        height: 6%;
+        width: 15%;
+        border: 5px white solid;
+        border-radius: 3px;
+    
+    }
+    
+    #areadoresultado{
+        position: absolute;
+        font-weight: 900;
+        color: rgb(13, 184, 13);
+        left: 20%;
+        top: 70%;
+        
+        border: 5px white solid;
+        border-radius: 3px;
+    
+    
+    }
+    
+    .esconde{
+        display: none;
+    }
+    
+    #certo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    #textocerto{
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        padding-top: 26px;
+        margin-left: 6px;
+        gap: 18px;
+    }

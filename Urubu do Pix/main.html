@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urubu do pix</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <img id="logopixHeader" src="/Urubu do Pix/imgs/logopix.png" alt="logo pix" height="60">
+        <img id="logotextoHeader" src="/Urubu do Pix/imgs/logourubu.png" height="80">
+        <img id="logoUrubuHeader" src="/Urubu do Pix/imgs/urubu.png" alt="logo urubu" height="80">
+    </header>
+    
+    <nav id="nav-bar">
+        <a href="tabela.html">Tabela de trading</a>
+        <a href="como.html">Como fuciona</a>
+        <a href="Perguntas.html">Perguntas frequentes</a>
+        <a href="https://wa.me/5533998087393">Suporte</a>
+    </nav>
+
+    <main>
+        <form onsubmit="rende(event)">
+        <input id="inputGrana" type="number"
+        placeholder="Qual o valor do deposito?"
+        step="1"
+        min="1"
+        required
+        />
+
+       <button id="botaocalcular">Calcular</button>
+    </form>
+
+    <div id="certo">
+        <img src="imgs/certo.png" alt="certo" height="60"> 
+        <img src="imgs/certo.png" alt="certo" height="60"> 
+        <img src="imgs/certo.png" alt="certo" height="60"> 
+    </div>
+
+    <div id="textocerto">
+        <h1>Seguro</h1>
+        <h1>Pratico</h1>
+        <h1>Rapido</h1>
+
+
+    </div>
+
+    <section id="areadoresultado" class="esconde">
+        <span id="texto-resultado">EM 7 dias voce vai receber xxxxxx</span>
+
+
+
+    </section>
+     
+        <img id="urubuMain" src="/Urubu do Pix/imgs/urr.png" height="250">
+        <img id="logoTextoMain" src="imgs/logourubu.png" height="150">
+        <img id="qkMain" src="/Urubu do Pix/imgs/4k.jpg" height="30">
+
+
+
+    </main>
+    <script src='index.js'></script>
+
+</body>
+
+
+
+</html>
